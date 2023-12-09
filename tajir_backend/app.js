@@ -5,9 +5,7 @@ require("dotenv").config();
 const Auth = require("./routes/auth");
 const cors = require("cors");
 
-// const MongoUrl = "mongodb+srv://20ntucs1120:WU6TAoQiyFljPJxO@blog-cluster.bvblv9k.mongodb.net/fyp";
-const MongoUrl = "mongodb://localhost:27017/tajir2";
-
+const MongoUrl = process.env.DATABASE_URL;
 
 
 const app = express();
