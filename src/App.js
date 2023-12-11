@@ -3,6 +3,8 @@ import Login from "./views/Auth/Login";
 import Register from "./views/Auth/Register";
 import { Route, Routes } from 'react-router-dom';
 
+//App.js 
+
 function App() {
   return (
     <>
