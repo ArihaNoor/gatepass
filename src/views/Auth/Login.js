@@ -71,7 +71,7 @@ const Login = () => {
             </button>
             {error && <div className="text-red-500 text-center mt-2">{error}</div>}
             <Link to="/register" className="text-gray-400 mt-2">
-              Don't have an Account?
+              Don't have an Account? Register
             </Link>
           </form>
 
